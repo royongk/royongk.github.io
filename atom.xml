@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Programming issues and personal thoughts</description>
+    <link>
+    https://royongk.github.io</link>
+    
+      
+      <item>
+        <title>Python(2) virtualenv</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 기본 개념은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python(1) 설치 및 설정방법&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python(2) virtualenv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 20 Jun 2021 19:18:00 +0900</pubDate>
+        <link>
+        https://royongk.github.io/python-control-statement</link>
+        <guid isPermaLink="true">https://royongk.github.io/python-control-statement</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Power Apps 개념</title>
+        
+          <description>&lt;p&gt;이 글은 Power Platform basic 입니다!!&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 20 Jun 2021 18:18:00 +0900</pubDate>
+        <link>
+        https://royongk.github.io/ppf-basic</link>
+        <guid isPermaLink="true">https://royongk.github.io/ppf-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Azure VM Create</title>
+        
+          <description>&lt;p&gt;이 글은 microsoft azure basic 입니다!!&lt;/p&gt;
+</description>
+        
+        <pubDate>Sun, 20 Jun 2021 18:18:00 +0900</pubDate>
+        <link>
+        https://royongk.github.io/azure-basic</link>
+        <guid isPermaLink="true">https://royongk.github.io/azure-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python(1) 설치 및 설정방법</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 기본 개념은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python(1) 설치 및 설정방법&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python(2) virtualenv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 20 Jun 2021 18:18:00 +0900</pubDate>
+        <link>
+        https://royongk.github.io/python-basic</link>
+        <guid isPermaLink="true">https://royongk.github.io/python-basic</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
