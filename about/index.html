@@ -26,7 +26,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- 웹폰트 추가 -->
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     
     <!-- dark-gist-embed-theme.css 추가 -->
     <link rel="stylesheet" type="text/css" href="/assets/built/dark-gist-embed-theme.css" />
@@ -59,22 +63,18 @@
     <meta property="og:site_name" content="Royong's Blog" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="About" />
-    <meta property="og:description" content="Royong Kwag 입니다.
-블로그 설계 중입니다...
-완료되면 기술관련 Post를 진행하도록 하겠습니다." />
+    <meta property="og:description" content="[![]({{ site.baseurl }}assets/built/images/logo_profile_image2.png)](https://github.com/royongk) --- ### Hey, I'm Royong. This blog is for publishing programming technical issues or personal thoughts accordingly. Most of them are uploaded in Korean, but quotes can be uploaded in English. If you have further questions or opinions, you’re very welcome to leave comments or send emails." />
     <meta property="og:url" content="https://royongk.github.io/about/" />
-    <meta property="og:image" content="https://royongk.github.io/assets/built/images/blog-cover2.jpg" />
+    <meta property="og:image" content="https://royongk.github.io/assets/built/images/blog-cover4.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
     <meta property="article:published_time" content="" />
     <meta property="article:modified_time" content="" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="Royong Kwag 입니다.
-블로그 설계 중입니다...
-완료되면 기술관련 Post를 진행하도록 하겠습니다." />
+    <meta name="twitter:description" content="[![]({{ site.baseurl }}assets/built/images/logo_profile_image2.png)](https://github.com/royongk) --- ### Hey, I'm Royong. This blog is for publishing programming technical issues or personal thoughts accordingly. Most of them are uploaded in Korean, but quotes can be uploaded in English. If you have further questions or opinions, you’re very welcome to leave comments or send emails." />
     <meta name="twitter:url" content="https://royongk.github.io/" />
-    <meta name="twitter:image" content="https://royongk.github.io/assets/built/images/blog-cover2.jpg" />
+    <meta name="twitter:image" content="https://royongk.github.io/assets/built/images/blog-cover4.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Royong's Blog" />
     <meta name="twitter:site" content="@" />
@@ -94,7 +94,7 @@
     "url": "https://royongk.github.io/about/",
     "image": {
         "@type": "ImageObject",
-        "url": "https://royongk.github.io/assets/built/images/blog-cover2.jpg",
+        "url": "https://royongk.github.io/assets/built/images/blog-cover4.jpg",
         "width": 2000,
         "height": 666
     },
@@ -102,9 +102,7 @@
         "@type": "WebPage",
         "@id": "https://royongk.github.io/about/"
     },
-    "description": "Royong Kwag 입니다.
-블로그 설계 중입니다...
-완료되면 기술관련 Post를 진행하도록 하겠습니다."
+    "description": "[![]({{ site.baseurl }}assets/built/images/logo_profile_image2.png)](https://github.com/royongk) --- ### Hey, I'm Royong. This blog is for publishing programming technical issues or personal thoughts accordingly. Most of them are uploaded in Korean, but quotes can be uploaded in English. If you have further questions or opinions, you’re very welcome to leave comments or send emails."
 }
     </script>
 
@@ -143,14 +141,16 @@ into the {body} of the default.hbs template -->
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-development" role="menuitem"><a href="/tag/development/">Development</a></li>
+    <!--
+    <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
     <li class="nav-microsoftazure" role="menuitem"><a href="/tag/microsoftazure/">Microsoft Azure</a></li>
     <li class="nav-powerplatform" role="menuitem"><a href="/tag/powerplatform/">Power Platform</a></li>
+    -->
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
     </li>
     <li class="nav-archive" role="menuitem">
-        <a href="/author_archive.html">Tag별 Posts</a>
+        <a href="/author_archive.html">Tag</a>
     </li>
 </ul>
         
@@ -184,9 +184,17 @@ into the {body} of the default.hbs template -->
             
 
             <section class="post-full-content">
-                <p>Royong Kwag 입니다.
-블로그 설계 중입니다…
-완료되면 기술관련 Post를 진행하도록 하겠습니다.</p>
+                <h2><a href="https://github.com/royongk"><img src="/assets/built/images/logo_profile_image2.png" alt="" /></a></h2>
+<h3 id="hey-im-royong">Hey, I’m Royong.</h3>
+<p>This blog is for publishing programming technical issues or personal thoughts accordingly.   <br />
+  Most of them are uploaded in Korean, but quotes can be uploaded in English. If you have further questions or opinions, you’re very welcome to leave comments or send emails.</p>
+
+<ul>
+  <li>Power Platform Developer at <a href="https://deex.co.kr/">Deexkorea</a></li>
+  <li>It also develops Server / web applications</li>
+  <li><a href="mailto:fhdyd6039@gmail.com">fhdyd6039@gmail.com</a></li>
+</ul>
+
 
             </section>
 

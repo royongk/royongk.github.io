@@ -11,7 +11,7 @@
 
 
 
-    <title>Power Apps 개념</title>
+    <title>Microsoft Power Platform 소개</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -26,7 +26,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- 웹폰트 추가 -->
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     
     <!-- dark-gist-embed-theme.css 추가 -->
     <link rel="stylesheet" type="text/css" href="/assets/built/dark-gist-embed-theme.css" />
@@ -58,22 +62,20 @@
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Royong's Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Power Apps 개념" />
-    <meta property="og:description" content="이 글은 Power Platform basic 입니다!!
-" />
+    <meta property="og:title" content="Microsoft Power Platform 소개" />
+    <meta property="og:description" content="Microsoft Power Platform은 무엇인가? Power Platform은 복잡한 비즈니스 솔루션을 개발 및 구축하고, 데이터 시각화를 분석 및 그리며, 비즈니스 프로세스를 자동화하거나, 통신을 위한 가상 에이전트를 구축하기 위해 Microsoft에서 제공하는 제품 그룹입니다. Power Platform 제품에는 아래와 같습니다. 제품 설명 Power BI 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하는 데 사용됩니다." />
     <meta property="og:url" content="https://royongk.github.io/ppf-basic" />
-    <meta property="og:image" content="https://royongk.github.io/assets/built/images/blog-cover2.jpg" />
+    <meta property="og:image" content="https://royongk.github.io/assets/built/images/communication.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
     <meta property="article:published_time" content="2021-06-20T18:18:00+09:00" />
     <meta property="article:modified_time" content="2021-06-20T18:18:00+09:00" />
     <meta property="article:tag" content="Powerplatform" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Power Apps 개념" />
-    <meta name="twitter:description" content="이 글은 Power Platform basic 입니다!!
-" />
+    <meta name="twitter:title" content="Microsoft Power Platform 소개" />
+    <meta name="twitter:description" content="Microsoft Power Platform은 무엇인가? Power Platform은 복잡한 비즈니스 솔루션을 개발 및 구축하고, 데이터 시각화를 분석 및 그리며, 비즈니스 프로세스를 자동화하거나, 통신을 위한 가상 에이전트를 구축하기 위해 Microsoft에서 제공하는 제품 그룹입니다. Power Platform 제품에는 아래와 같습니다. 제품 설명 Power BI 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하는 데 사용됩니다." />
     <meta name="twitter:url" content="https://royongk.github.io/" />
-    <meta name="twitter:image" content="https://royongk.github.io/assets/built/images/blog-cover2.jpg" />
+    <meta name="twitter:image" content="https://royongk.github.io/assets/built/images/communication.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Royong's Blog" />
     <meta name="twitter:label2" content="Filed under" />
@@ -95,7 +97,7 @@
     "url": "https://royongk.github.io/ppf-basic",
     "image": {
         "@type": "ImageObject",
-        "url": "https://royongk.github.io/assets/built/images/blog-cover2.jpg",
+        "url": "https://royongk.github.io/assets/built/images/communication.jpg",
         "width": 2000,
         "height": 666
     },
@@ -103,8 +105,7 @@
         "@type": "WebPage",
         "@id": "https://royongk.github.io/ppf-basic"
     },
-    "description": "이 글은 Power Platform basic 입니다!!
-"
+    "description": "Microsoft Power Platform은 무엇인가? Power Platform은 복잡한 비즈니스 솔루션을 개발 및 구축하고, 데이터 시각화를 분석 및 그리며, 비즈니스 프로세스를 자동화하거나, 통신을 위한 가상 에이전트를 구축하기 위해 Microsoft에서 제공하는 제품 그룹입니다. Power Platform 제품에는 아래와 같습니다. 제품 설명 Power BI 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하는 데 사용됩니다."
 }
     </script>
 
@@ -117,7 +118,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Power Apps 개념" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Microsoft Power Platform 소개" href="/feed.xml" />
 
 
 </head>
@@ -143,14 +144,16 @@ into the {body} of the default.hbs template -->
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-development" role="menuitem"><a href="/tag/development/">Development</a></li>
+    <!--
+    <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
     <li class="nav-microsoftazure" role="menuitem"><a href="/tag/microsoftazure/">Microsoft Azure</a></li>
     <li class="nav-powerplatform" role="menuitem"><a href="/tag/powerplatform/">Power Platform</a></li>
+    -->
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
     </li>
     <li class="nav-archive" role="menuitem">
-        <a href="/author_archive.html">Tag별 Posts</a>
+        <a href="/author_archive.html">Tag</a>
     </li>
 </ul>
         
@@ -175,7 +178,7 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-powerplatform post tag-powerplatform no-image">
+        <article class="post-full  tag-powerplatform post tag-powerplatform ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
@@ -189,14 +192,56 @@ into the {body} of the default.hbs template -->
                         
                     
                 </section>
-                <h1 class="post-full-title">Power Apps 개념</h1>
+                <h1 class="post-full-title">Microsoft Power Platform 소개</h1>
             </header>
 
-            <!--  -->
+            <!-- 
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/communication.jpg)">
+            </figure>
+             -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p>이 글은 Power Platform basic 입니다!!</p>
+                    <h4 id="microsoft-power-platform은-무엇인가">Microsoft Power Platform은 무엇인가?</h4>
+<p>Power Platform은 복잡한 비즈니스 솔루션을 개발 및 구축하고, 데이터 시각화를 분석 및 그리며, 비즈니스 프로세스를 자동화하거나, 통신을 위한 가상 에이전트를 구축하기 위해 Microsoft에서 제공하는 제품 그룹입니다.</p>
+
+<p>Power Platform 제품에는 아래와 같습니다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>제품</strong></th>
+      <th><strong>설명</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Power BI</td>
+      <td>쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하는 데 사용됩니다.</td>
+    </tr>
+    <tr>
+      <td>Power Apps</td>
+      <td>비즈니스 데이터에 연결하는 사용자 지정 비즈니스 앱을 구축하는 데 사용됩니다.</td>
+    </tr>
+    <tr>
+      <td>Power Automate</td>
+      <td>수동 작업을 줄이기 위해 자동화 된 워크 플로를 설계하는 데 사용됩니다.</td>
+    </tr>
+    <tr>
+      <td>Power Virtual Agents</td>
+      <td>고객, 다른 직원 또는 웹 사이트 나 서비스 방문자가 제기한 질문에 답할 수 있는 강력한 챗봇을 개발하는 데 사용됩니다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>그동안 비즈니스 솔루션을 개발하기 위해서 특정 프로그래밍 언어를 배우거나, 전문 개발자가 필요했습니다.<br />
+그에 반해 Power Platform은 사용자 또는 개발자가 사용할 수 있는 간단한 GUI 형태이므로 프로그래밍을 배우지 않은 현업 담당자들도 원하는 기능을 구현할 수 있습니다.</p>
+
+<p>비즈니스 솔루션 개발에 관심이 있으신 분들을 위해 소개, 이슈 등을 공유하도록 하겠습니다.</p>
+
+<h4 id="참고">참고</h4>
+<p><a href="https://docs.microsoft.com/ko-kr/power-platform/">Microsoft Power Platform 설명서</a><br />
+<a href="https://www.sqlshack.com/a-quick-overview-of-the-microsoft-power-platform/">A quick overview of the Microsoft Power Platform</a></p>
 
                 </div>
             </section>
@@ -235,21 +280,6 @@ into the {body} of the default.hbs template -->
                 <!-- #author-->
                 
                     
-                        <section class="author-card">
-                            
-                                <img class="author-profile-image" src="/assets/built/images/royong_author_image.jpg" alt="Royong" />
-                            
-                            <section class="author-card-content">
-                                <h4 class="author-card-name"><a href="/author/Royong">Royong Kwag</a></h4>
-                                
-                                    <p><a href="https://github.com/royongk">Server / Web Application Developer</a></p>
-                                
-                            </section>
-                        </section>
-                        <div class="post-full-footer-right">
-                            <a class="author-card-button" href="/author/Royong">Read More</a>
-                        </div>
-                    
                 
                 <!-- /author  -->
             </footer>
@@ -264,7 +294,7 @@ into the {body} of the default.hbs template -->
                         var disqus_config = function () {
                             var this_page_url = 'https://royongk.github.io/ppf-basic';
                             var this_page_identifier = '/ppf-basic';
-                            var this_page_title = 'Power Apps 개념';
+                            var this_page_title = 'Microsoft Power Platform 소개';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -294,105 +324,8 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-control-statement">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Development</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python(2) virtualenv</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 기본 개념은 여러 절로 구성되어 있습니다. 
-
-    Python(1) 설치 및 설정방법
-    Python(2) virtualenv
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/royong_author_image.jpg" alt="Royong Kwag" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Royong/">Royong Kwag</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
-            
-                
-
-    <article class="post-card post-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/azure-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Microsoftazure</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Azure VM Create</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>이 글은 microsoft azure basic 입니다!!
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/royong_author_image.jpg" alt="Royong Kwag" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Royong/">Royong Kwag</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
             
 
         </div>
@@ -408,13 +341,13 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Power Apps 개념</div>
+    <div class="floating-header-title">Microsoft Power Platform 소개</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Power+Apps+%EA%B0%9C%EB%85%90&amp;url=https://royongk.github.io/ppf-basic"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Microsoft+Power+Platform+%EC%86%8C%EA%B0%9C&amp;url=https://royongk.github.io/ppf-basic"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 

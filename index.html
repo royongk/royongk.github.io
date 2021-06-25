@@ -26,7 +26,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- 웹폰트 추가 -->
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     
     <!-- dark-gist-embed-theme.css 추가 -->
     <link rel="stylesheet" type="text/css" href="/assets/built/dark-gist-embed-theme.css" />
@@ -61,13 +65,13 @@
     <meta property="og:title" content="Royong's Blog" />
     <meta property="og:description" content="Programming issues and personal thoughts" />
     <meta property="og:url" content="https://royongk.github.io/" />
-    <meta property="og:image" content="https://royongk.github.io/assets/built/images/blog-cover2.jpg" />
+    <meta property="og:image" content="https://royongk.github.io/assets/built/images/blog-cover4.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Royong's Blog" />
     <meta name="twitter:description" content="Programming issues and personal thoughts" />
     <meta name="twitter:url" content="https://royongk.github.io/" />
-    <meta name="twitter:image" content="https://royongk.github.io/assets/built/images/blog-cover2.jpg" />
+    <meta name="twitter:image" content="https://royongk.github.io/assets/built/images/blog-cover4.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Royong's Blog" />
     <meta name="twitter:site" content="@" />
@@ -87,7 +91,7 @@
     "url": "https://royongk.github.io/",
     "image": {
         "@type": "ImageObject",
-        "url": "https://royongk.github.io/assets/built/images/blog-cover2.jpg",
+        "url": "https://royongk.github.io/assets/built/images/blog-cover4.jpg",
         "width": 2000,
         "height": 666
     },
@@ -121,7 +125,7 @@
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/assets/built/images/blog-cover2.jpg) ">
+<header class="site-header outer " style="background-image:  url(/assets/built/images/blog-cover4.jpg) ">
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
@@ -138,14 +142,16 @@ into the {body} of the default.hbs template -->
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-development" role="menuitem"><a href="/tag/development/">Development</a></li>
+    <!--
+    <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
     <li class="nav-microsoftazure" role="menuitem"><a href="/tag/microsoftazure/">Microsoft Azure</a></li>
     <li class="nav-powerplatform" role="menuitem"><a href="/tag/powerplatform/">Power Platform</a></li>
+    -->
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
     </li>
     <li class="nav-archive" role="menuitem">
-        <a href="/author_archive.html">Tag별 Posts</a>
+        <a href="/author_archive.html">Tag</a>
     </li>
 </ul>
         
@@ -173,55 +179,11 @@ into the {body} of the default.hbs template -->
             
 
 
-    <article class="post-card home-template no-image">
+    <article class="post-card home-template">
         
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-control-statement">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Development</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python(2) virtualenv</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 기본 개념은 여러 절로 구성되어 있습니다. 
-
-    Python(1) 설치 및 설정방법
-    Python(2) virtualenv
-
-
-</p>
-                    
-                </section>
+            <a class="post-card-image-link" href="/ppf-basic">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/communication.jpg)"></div>
             </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/royong_author_image.jpg" alt="Royong Kwag" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Royong/">Royong Kwag</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      2 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template no-image">
         
         <div class="post-card-content">
             <a class="post-card-content-link" href="/ppf-basic">
@@ -234,101 +196,12 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">Power Apps 개념</h2>
+                    <h2 class="post-card-title">Microsoft Power Platform 소개</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>이 글은 Power Platform basic 입니다!!
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/royong_author_image.jpg" alt="Royong Kwag" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Royong/">Royong Kwag</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/azure-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Microsoftazure</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Azure VM Create</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>이 글은 microsoft azure basic 입니다!!
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/royong_author_image.jpg" alt="Royong Kwag" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Royong/">Royong Kwag</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Development</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python(1) 설치 및 설정방법</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 기본 개념은 여러 절로 구성되어 있습니다. 
-
-    Python(1) 설치 및 설정방법
-    Python(2) virtualenv
-
+                        <p>Microsoft Power Platform은 무엇인가?
+Power Platform은 복잡한 비즈니스 솔루션을 개발 및 구축하고, 데이터 시각화를 분석 및 그리며, 비즈니스 프로세스를 자동화하거나, 통신을 위한 가상 에이전트를 구축하기 위해 Microsoft에서 제공하는 제품 그룹입니다.
 
 </p>
                     
@@ -336,13 +209,6 @@ into the {body} of the default.hbs template -->
             </a>
             <footer class="post-card-meta">
                 
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/royong_author_image.jpg" alt="Royong Kwag" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Royong/">Royong Kwag</a>
-                        </span>
                     
                 
                 <span class="reading-time">
