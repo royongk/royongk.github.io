@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://royongk.github.io/ppf-basic</loc>
+        <loc>https://royongk.github.io/python-overview</loc>
+    </url>
+    
+    <url>
+        <loc>https://royongk.github.io/ppf-overview</loc>
     </url>
     
 
@@ -75,6 +79,16 @@
     
     <url>
         <loc>https://royongk.github.io/tag/powerplatform/</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://royongk.github.io/tag/python/</loc>
     </url>
     
     

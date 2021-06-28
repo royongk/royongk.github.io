@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>What is python?</title>
+        
+          <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article contains personal thoughts. Please leave a comment on the parts that need to be revised.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;이 글은 개인적인 견해가 포함되어 있습니다. 수정이 필요한 부분은 의견을 남겨주시기 바랍니다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 27 Jun 2021 02:18:00 +0900</pubDate>
+        <link>
+        https://royongk.github.io/python-overview</link>
+        <guid isPermaLink="true">https://royongk.github.io/python-overview</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Microsoft Power Platform 소개</title>
         
           <description>&lt;h4 id=&quot;microsoft-power-platform은-무엇인가&quot;&gt;Microsoft Power Platform은 무엇인가?&lt;/h4&gt;
@@ -17,8 +33,8 @@
         
         <pubDate>Sun, 20 Jun 2021 18:18:00 +0900</pubDate>
         <link>
-        https://royongk.github.io/ppf-basic</link>
-        <guid isPermaLink="true">https://royongk.github.io/ppf-basic</guid>
+        https://royongk.github.io/ppf-overview</link>
+        <guid isPermaLink="true">https://royongk.github.io/ppf-overview</guid>
       </item>
       
     

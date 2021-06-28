@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://royongk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://royongk.github.io/" rel="alternate" type="text/html" /><updated>2021-06-28T16:15:52+09:00</updated><id>https://royongk.github.io/feed.xml</id><title type="html">Royong’s Blog</title><subtitle>Programming issues and personal thoughts</subtitle><entry><title type="html">What is python?</title><link href="https://royongk.github.io/python-overview" rel="alternate" type="text/html" title="What is python?" /><published>2021-06-27T02:18:00+09:00</published><updated>2021-06-27T02:18:00+09:00</updated><id>https://royongk.github.io/python-overview</id><content type="html" xml:base="https://royongk.github.io/python-overview">&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article contains personal thoughts. Please leave a comment on the parts that need to be revised.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://royongk.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://royongk.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-06-28T16:15:52+09:00</updated>
+  <id>https://royongk.github.io/tag/python/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Royong’s Blog | </title>
+  
+
+  
+    <subtitle>Programming issues and personal thoughts</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">What is python?</title>
+      <link href="https://royongk.github.io/python-overview" rel="alternate" type="text/html" title="What is python?" />
+      <published>2021-06-27T02:18:00+09:00</published>
+      <updated>2021-06-27T02:18:00+09:00</updated>
+      <id>https://royongk.github.io/python-overview</id>
+      <content type="html" xml:base="https://royongk.github.io/python-overview">&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article contains personal thoughts. Please leave a comment on the parts that need to be revised.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;em&gt;이 글은 개인적인 견해가 포함되어 있습니다. 수정이 필요한 부분은 의견을 남겨주시기 바랍니다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -54,43 +93,32 @@ Python으로 개발을 하다보면 라이브러리를 찾는게 빠른지, 해�
 &lt;h4 id=&quot;참고&quot;&gt;참고&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://namu.wiki/w/Python&quot;&gt;Python 나무 위키&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC&quot;&gt;Python 위키 백과&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.w3schools.com/python/python_intro.asp&quot;&gt;w3chools&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="python" /><summary type="html">This article contains personal thoughts. Please leave a comment on the parts that need to be revised. 이 글은 개인적인 견해가 포함되어 있습니다. 수정이 필요한 부분은 의견을 남겨주시기 바랍니다.</summary></entry><entry><title type="html">Microsoft Power Platform 소개</title><link href="https://royongk.github.io/ppf-overview" rel="alternate" type="text/html" title="Microsoft Power Platform 소개" /><published>2021-06-20T18:18:00+09:00</published><updated>2021-06-20T18:18:00+09:00</updated><id>https://royongk.github.io/ppf-overview</id><content type="html" xml:base="https://royongk.github.io/ppf-overview">&lt;h4 id=&quot;microsoft-power-platform은-무엇인가&quot;&gt;Microsoft Power Platform은 무엇인가?&lt;/h4&gt;
-&lt;p&gt;Power Platform은 복잡한 비즈니스 솔루션을 개발 및 구축하고, 데이터 시각화를 분석 및 그리며, 비즈니스 프로세스를 자동화하거나, 통신을 위한 가상 에이전트를 구축하기 위해 Microsoft에서 제공하는 제품 그룹입니다.&lt;/p&gt;
+&lt;a href=&quot;https://www.w3schools.com/python/python_intro.asp&quot;&gt;w3chools&lt;/a&gt;&lt;/p&gt;</content>
 
-&lt;p&gt;Power Platform 제품에는 아래와 같습니다.&lt;/p&gt;
+      
+      
+      
+      
+      
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;strong&gt;제품&lt;/strong&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;strong&gt;설명&lt;/strong&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Power BI&lt;/td&gt;
-      &lt;td&gt;쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하는 데 사용됩니다.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Power Apps&lt;/td&gt;
-      &lt;td&gt;비즈니스 데이터에 연결하는 사용자 지정 비즈니스 앱을 구축하는 데 사용됩니다.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Power Automate&lt;/td&gt;
-      &lt;td&gt;수동 작업을 줄이기 위해 자동화 된 워크 플로를 설계하는 데 사용됩니다.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Power Virtual Agents&lt;/td&gt;
-      &lt;td&gt;고객, 다른 직원 또는 웹 사이트 나 서비스 방문자가 제기한 질문에 답할 수 있는 강력한 챗봇을 개발하는 데 사용됩니다.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+      <author>
+          <name></name>
+        
+        
+      </author>
 
-&lt;p&gt;그동안 비즈니스 솔루션을 개발하기 위해서 특정 프로그래밍 언어를 배우거나, 전문 개발자가 필요했습니다.&lt;br /&gt;
-그에 반해 Power Platform은 사용자 또는 개발자가 사용할 수 있는 간단한 GUI 형태이므로 프로그래밍을 배우지 않은 현업 담당자들도 원하는 기능을 구현할 수 있습니다.&lt;/p&gt;
+      
 
-&lt;p&gt;추후 비즈니스 솔루션 개발에 관심이 있으신 분들을 위해 Power Platform 각 도구들의 소개, 이슈 등을 공유하도록 하겠습니다.&lt;/p&gt;
+      
+        <category term="python" />
+      
 
-&lt;h4 id=&quot;참고&quot;&gt;참고&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/ko-kr/power-platform/&quot;&gt;Microsoft Power Platform 설명서&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.sqlshack.com/a-quick-overview-of-the-microsoft-power-platform/&quot;&gt;A quick overview of the Microsoft Power Platform&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="powerplatform" /><summary type="html">Microsoft Power Platform은 무엇인가? Power Platform은 복잡한 비즈니스 솔루션을 개발 및 구축하고, 데이터 시각화를 분석 및 그리며, 비즈니스 프로세스를 자동화하거나, 통신을 위한 가상 에이전트를 구축하기 위해 Microsoft에서 제공하는 제품 그룹입니다.</summary></entry></feed>
+      
+        <summary type="html">This article contains personal thoughts. Please leave a comment on the parts that need to be revised. 이 글은 개인적인 견해가 포함되어 있습니다. 수정이 필요한 부분은 의견을 남겨주시기 바랍니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
