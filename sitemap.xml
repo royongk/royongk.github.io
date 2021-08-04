@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://royongk.github.io/python-django.html</loc>
+        
+        <lastmod>2021-08-02T22:20:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://royongk.github.io/python-overview.html</loc>
         
         <lastmod>2021-06-27T02:18:00+09:00</lastmod>
