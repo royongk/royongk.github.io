@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://royongk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://royongk.github.io/" rel="alternate" type="text/html" /><updated>2021-08-04T11:41:36+09:00</updated><id>https://royongk.github.io/feed.xml</id><title type="html">Royong’s Blog</title><subtitle>Programming issues and personal thoughts</subtitle><entry><title type="html">Django 웹 프레임워크</title><link href="https://royongk.github.io/python-django" rel="alternate" type="text/html" title="Django 웹 프레임워크" /><published>2021-08-02T22:20:00+09:00</published><updated>2021-08-02T22:20:00+09:00</updated><id>https://royongk.github.io/python-django</id><content type="html" xml:base="https://royongk.github.io/python-django">&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article contains personal thoughts. Please leave a comment on the parts that need to be revised.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://royongk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://royongk.github.io/" rel="alternate" type="text/html" /><updated>2022-03-28T19:03:55+09:00</updated><id>https://royongk.github.io/feed.xml</id><title type="html">Royong’s Blog</title><subtitle>Programming issues and personal thoughts</subtitle><entry><title type="html">AZ-900 자격증 시험 후기</title><link href="https://royongk.github.io/az-900" rel="alternate" type="text/html" title="AZ-900 자격증 시험 후기" /><published>2022-03-28T01:00:00+09:00</published><updated>2022-03-28T01:00:00+09:00</updated><id>https://royongk.github.io/az-900</id><content type="html" xml:base="https://royongk.github.io/az-900">&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article contains personal thoughts. Please leave a comment on the parts that need to be revised.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;이 글은 개인적인 견해가 포함되어 있습니다. 수정이 필요한 부분은 의견을 남겨주시기 바랍니다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/post-img/2022-03-28/az-900-acceptance-badge.PNG&quot; alt=&quot;az-900 인증배지&quot; width=&quot;150&quot; height=&quot;150&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;회사에서 AZ-900 시험 신청에 대한 지원이 있어서 프로젝트 투입전에 시험 준비를 하고 합격을 했습니다.&lt;br /&gt;
+이 포스팅은 AZ-900 시험을 준비 하시는 다른 분들께 조금이나마 도움이 되고자 공유 합니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;az-900이란&quot;&gt;AZ-900이란?&lt;/h4&gt;
+&lt;p&gt;AZ-900은 클라우드 기반 솔루션 및 서비스로 일을 시작하거나 Azure를 처음 접하는 응시자들을 위한 시험입니다. Azure 가격 책정, 클라우드 개념, Azure 서비스, Azure 워크로드, Azure에서의 보안 및 개인정보에 대한 지식이 있음을 증명할 수 있습니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;시험-준비&quot;&gt;시험 준비&lt;/h4&gt;
+&lt;p&gt;먼저 Microsoft Learn 사이트에 있는 AZ-900 Learning Path를 전체적으로 학습해서 정리했습니다. 그리고 학습한 내용을 토대로 Examtopics 사이트와 Exam-Answer 사이트의 Dump문제를 전부 풀어보았습니다. 난이도는 Exam-Answer 사이트의 문제가 더 어려워서 학습에 도움이 되지만, 저의 경우 주로 Examtopics 사이트에 있는 문제가 시험에 많이 출제되었습니다. 그리고 Examtopics 사이트의 경우 150 ~ 160문제까지 학습하면 그 이후에는 이메일 인증을 받아야 다음 문제를 학습할 수 있도록 되어있습니다. 그런데 굳이 인증해서 다 학습할 필요가 없다고 판단해서 150문제까지만 학습했는데, 더 학습이 필요하신 분은 이메일 인증을 진행하시면 될 것 같습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;※ 참고&lt;br /&gt;
+Examtopics 사이트의 답안이 간혹 틀리게 표시 되는 경우가 있습니다. 그렇기 때문에 각 문제별로 Discussion에 공유된 내용을 참고하면 도움이 됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;시험-신청&quot;&gt;시험 신청&lt;/h4&gt;
+&lt;p&gt;Microsoft에서 제공하는 AZ-900 웨비나를 통해 강의를 수강하면 무료 바우처를 제공해줍니다. 강의는 이틀간 진행되고, 무료 바우처 목적 외에도 강의를 수강하면 시험에 도움이 많이 되기 때문에 수강하기를 추천 드립니다. 만약 바우처가 없다면 시험 신청 비용은 현재 날짜 기준으로 $69 USD입니다.&lt;br /&gt;
+시험 신천은 Microsoft Learn 사이트에서 Pearson VUE로 예약이 가능합니다. 시험 신청 시 계정은 반드시 Microsoft 개인 계쩡으로 신청 해야하며 바우처를 저처럼 회사 계정으로 받으신 분들은 시험 신청 시 회사 계정을 연동하면 시험 할인 메뉴 항목에서 바우처가 표시 되니 해당 바우처를 선택 하시면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/post-img/2022-03-28/az-900-application-screen.JPG&quot; alt=&quot;az-900 시험신청화면&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;시험 신청은 시험장에 방문해서도 시험을 볼 수 있다고 하는데 요즘은 코로나로 인해 시험장에서 신청이 안되는 것 같습니다. 온라인으로 신청하게 되면 표시되는 일정의 시간 중에서 원하는 시간을 선택할 수 있고, 시험 문제 언어와 감독관의 언어를 선택할 수 있습니다. 감독관의 경우 영어, 일본어 중에 선택이 가능합니다.&lt;br /&gt;
+그런데 시험 문제의 언어는 한국어를 선택하면 번역되어 표시되지만 온라인 감독관 언어의 경우 인터넷 상태, 시험 장소 상태, 웹캠 상태를 체크인 시 채팅으로 확인하기 때문에 영어로 신청 하시길 추천 드립니다.&lt;/p&gt;
+
+&lt;h4 id=&quot;시험-후기&quot;&gt;시험 후기&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/images/post-img/2022-03-28/az-900-certificate-acceptance.JPG&quot; alt=&quot;az-900 합격인증서&quot; width=&quot;100%&quot; height=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;사실 시험은 3월안에 여유롭게 신청하고 Dump문제를 여러번 풀어볼 생각이었습니다. 그런데 시험 준비를 하다보니 일정이 여유롭다고 생각해서인지 집중도가 떨어지는 느낌이었습니다. 그래서 저는 시험 준비를 시작하자마자 시험 일정을 예약하고 Dump문제를 계속 풀어보는 방식으로 진행 했습니다.&lt;br /&gt;
+시험은 시작 30분전에 체크인을 하도록 안내메일을 받아서 해당 시간에 접속하니 신분증, 웹캠 얼굴 인증, 시험 장소를 찍어 인증을 했습니다. 블로그 후기를 보니 주변에 모니터가 존재하면 감독관이 까다롭게 확인한다는 후기를 보고 옷방에서 시험을 치뤘는데 오히려 와이파이가 약해져서 감독관이 재접속을 권유해서 체크인이 지연되었던 기억이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;실제 시험 문제는 35문제가 출제되었고 80%는 Dump문제에서 동일한 수준의 문제가 대부분이어서 충분히 다 풀 수 있는 수준이었습니다. 문제를 다 푸는데 30분정도 소요되었는데 답을 제출하면 바로 점수와 합격 유무를 알 수 있었습니다. 마지막 제출전에는 선택한 답에 대해 검토를 할 수 있도록 되어있으니 주어진 시간안에 천천히 확인하셔도 될 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/post-img/2022-03-28/az-900-acceptance-mail.JPG&quot; alt=&quot;az-900 합격이메일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;시험에 합격하면 시험에 신청한 계정 이메일로 합격 이메일이 오게 됩니다. 이메일에 적힌 링크로 접속하면 배지 신청도 가능하고 인증서 또한 발급이 가능합니다. 모두 시험에 합격 하셔서 배지를 획득 하실 수 있길 바랍니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;참고&quot;&gt;참고&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/ko-kr/learn/certifications/exams/az-900&quot;&gt;Microsoft Learn&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.examtopics.com/exams/microsoft/az-900/&quot;&gt;Microsoft AZ-900 Examtopics&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.exam-answer.com/microsoft/az-900&quot;&gt;Microsoft AZ-900 Exam-Answer&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.microsoft.com/ko-kr/events/training-days&quot;&gt;Microsoft Azure Virtual Training Day: Fundamentals&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://examregistration.microsoft.com/?locale=ko-KR&amp;amp;examcode=AZ-900&amp;amp;examname=Exam%20AZ-900:%20Microsoft%20Azure%20Fundamentals&amp;amp;returnToLearningUrl=https%3A%2F%2Fdocs.microsoft.com%2Flearn%2Fcertifications%2Fexams%2Faz-900&quot;&gt;AZ-900 Pearson VUE 예약&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.microsoft.com/ko-kr/learning/dashboard.aspx&quot;&gt;Microsoft Dashboard&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="microsoftazure" /><summary type="html">This article contains personal thoughts. Please leave a comment on the parts that need to be revised. 이 글은 개인적인 견해가 포함되어 있습니다. 수정이 필요한 부분은 의견을 남겨주시기 바랍니다.</summary></entry><entry><title type="html">Django 웹 프레임워크</title><link href="https://royongk.github.io/python-django" rel="alternate" type="text/html" title="Django 웹 프레임워크" /><published>2021-08-02T22:20:00+09:00</published><updated>2021-08-02T22:20:00+09:00</updated><id>https://royongk.github.io/python-django</id><content type="html" xml:base="https://royongk.github.io/python-django">&lt;p&gt;&lt;strong&gt;&lt;em&gt;This article contains personal thoughts. Please leave a comment on the parts that need to be revised.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;em&gt;이 글은 개인적인 견해가 포함되어 있습니다. 수정이 필요한 부분은 의견을 남겨주시기 바랍니다.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
